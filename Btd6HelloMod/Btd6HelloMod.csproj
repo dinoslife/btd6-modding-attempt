@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PhightingDeitiesHeroPack</AssemblyName>
+    <RootNamespace>Btd6HelloMod</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Update these paths for your local setup. -->
+    <Reference Include="MelonLoader">
+      <HintPath>C:\\Games\\BloonsTD6\\MelonLoader\\net6\\MelonLoader.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BTD_Mod_Helper">
+      <HintPath>C:\\Games\\BloonsTD6\\Mods\\BTD_Mod_Helper.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
